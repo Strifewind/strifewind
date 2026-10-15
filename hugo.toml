@@ -1,0 +1,12 @@
+baseURL = 'https://strifewind.sbs/'
+locale = 'en-US'
+title = 'Strifewind — Systems, software & signal'
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+description = 'A personal workbench for software, infrastructure, research, and electronics.'
+github = 'https://github.com/Strifewind'
+resumeFile = 'resume.pdf'
+
+[markup.goldmark.renderer]
+unsafe = false
