@@ -3,6 +3,8 @@ title = 'Built to understand.'
 [build]
 render = 'never'
 +++
-My interests meet at the intersection of systems, software, and hands-on experimentation. A homelab, a game’s data, a research workflow, or an amplifier circuit: each is a different way to ask how things work—and what I can build with them.
+I’m Brian O’Grady, an IT professional based in Portland, Oregon. My work has taken me from enterprise systems support to Intel’s engineering labs and automation at Cargo Sense. I enjoy getting hands-on with hardware, understanding the software around it, and making repetitive work easier.
 
-This is my personal workbench: a place for projects, ongoing explorations, and the connections between them.
+I’m pursuing a BS in Computer Science at Portland State University and growing toward DevOps and software engineering work. My five-node Kubernetes homelab gives me a place to keep learning through real services, container deployments, and infrastructure automation.
+
+This is also my personal workbench for game data, research workflows, document tooling, and electronics. Different disciplines, the same curiosity about how things fit together.

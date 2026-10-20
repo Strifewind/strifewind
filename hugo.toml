@@ -4,7 +4,7 @@ title = 'Strifewind — Systems, software & signal'
 disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
-description = 'A personal workbench for software, infrastructure, research, and electronics.'
+description = 'Brian O’Grady (Strifewind): IT and automation experience, a Kubernetes homelab, and a personal workbench for software, infrastructure, and electronics.'
 github = 'https://github.com/Strifewind'
 resumeFile = 'resume.pdf'
 

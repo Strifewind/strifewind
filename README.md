@@ -1,59 +1,24 @@
-# Hi, I’m Strifewind.
+# Hi, I’m Brian — Strifewind online.
 
-I’m curious about how things work—and what I can build with them. I make software,
-explore infrastructure, and follow ideas from the first sketch to the circuit board.
+I like figuring out how systems work, then finding ways to make them less manual.
+My background spans IT support, engineering labs at Intel, and automation at
+Cargo Sense, where I worked with Docker, CI/CD, and an Elixir-based web app.
 
-A homelab, a game’s data, a research workflow, an amplifier circuit: each is a
-different way to explore that curiosity. This is my personal workbench for projects,
-experiments, and the connections between them.
+These days I’m studying computer science at Portland State University and building
+on that experience through a five-node Kubernetes homelab running on Intel NUCs.
+It’s where I put containers, automated deployments, and infrastructure ideas into
+practice.
 
-**[Take a look around my portfolio](https://strifewind.sbs/)** ·
+Python, Bash, PowerShell, Docker, Kubernetes, Jenkins, and Ansible are part of my
+toolbox. I’m interested in DevOps and software engineering work that brings
+automation and practical problem-solving together.
+
+Away from that, I follow my curiosity into game data, research workflows, document
+tooling, and amplifier circuits. Different projects, same urge to understand what’s
+under the hood.
+
+**[Explore my portfolio](https://strifewind.sbs/)** ·
+**[Read my résumé](https://strifewind.sbs/resume.pdf)** ·
 **[Find me on GitHub](https://github.com/Strifewind)**
 
-<details>
-<summary>Maintaining the portfolio</summary>
-
-### Preview and build
-
-Install [Hugo 0.168.0](https://github.com/gohugoio/hugo/releases/tag/v0.168.0)
-(standard edition), then run these commands from the repository root:
-
-```sh
-hugo server
-hugo --minify --panicOnWarning
-```
-
-The second command is the production build used by CI. Its output goes to `public/`.
-
-### Update content
-
-- Edit the introduction, biography, experience, and contact copy in
-  [`content/`](content/).
-- Add or update projects in [`content/projects/`](content/projects/). Project
-  `weight` sets display order; `draft = true` hides a project from production.
-  Keep `[build] render = 'never'` so projects appear on the homepage without
-  generating separate pages.
-- Site settings, including the GitHub URL and résumé filename, are in
-  [`hugo.toml`](hugo.toml).
-
-### Publish the résumé
-
-Résumé generation stays in the existing Groundfloor/LaTeX tooling. Review a
-public-safe PDF, then add it as `static/resume.pdf`. The homepage only shows the
-view and download links while the configured file exists; set `params.resumeFile`
-in `hugo.toml` to use a different filename.
-
-### Publish the site
-
-The [Pages workflow](.github/workflows/pages.yml) builds pull requests but deploys
-only pushes to `main` (or manual runs against `main`). In the repository’s
-**Settings → Pages**, select **GitHub Actions** as the build and deployment source.
-The repository includes [`static/CNAME`](static/CNAME); the Pages custom-domain
-setting must also be configured in GitHub.
-
-DNS records are managed separately at the domain provider, not in this repository.
-Follow GitHub’s [custom-domain DNS instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
-Domain ownership verification is an account setting; assigning the domain to this
-Pages site and enabling HTTPS are repository Pages settings.
-
-</details>
+Working on this site? See the [portfolio maintenance guide](MAINTAINING.md).
